@@ -153,7 +153,7 @@ def main():
     remove_directory(args.path)
   elif command == 'rm':
     remove_file(args.file)
-  elif command == 'rm-r':
+  elif command == 'rm -r':
     remove_directory_recursively(args.directory)
   elif command == 'cp':
     copy(args.source, args.destination)
